@@ -16,7 +16,7 @@ public class Dictionary {
   static {
 	  dict = new HashMap<String, List<String>>();
 	  try {
-		  BufferedReader in = new BufferedReader(new FileReader("/Users/steve/Documents/workspace/PandaPoetics/PandaPoetics/data/PandaPoetDictionary"));
+		  BufferedReader in = new BufferedReader(new FileReader("data/dictionary"));
 		  String str;
 		  String sortedStr;
 		  while ((str = in.readLine()) != null) {

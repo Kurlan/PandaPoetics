@@ -11,9 +11,7 @@ import pandapoetics.tile.DeadTile;
 import pandapoetics.tile.HiddenTile;
 import pandapoetics.tile.LetterFactory;
 import pandapoetics.tile.LetterTile;
-import pandapoetics.tile.LetterValueTuple;
 import pandapoetics.tile.PandaTile;
-import pandapoetics.tile.Tile;
 import pandapoetics.tile.TileState;
 
 public class PandaProcessor {
