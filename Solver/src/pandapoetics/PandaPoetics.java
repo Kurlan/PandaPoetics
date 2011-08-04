@@ -11,7 +11,7 @@ public class PandaPoetics {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		if (args.length < 0) {
+		if (args.length == 0) {
 			System.err.println("Please pass in xml");
 			System.exit(1);
 		}
